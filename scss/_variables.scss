@@ -1,0 +1,27 @@
+//Variables
+
+$bg-color:rgb(119, 183, 183);
+$bg-color-barra: rgb(84, 84, 216);
+$color-letra: whitesmoke;
+$margin10: 10 px;
+$margin50: 10px*5;
+$margin30: 10px*3;
+//$tipografia-principal:monserrat-principal;
+//Ver tipografía
+// @font-face {
+//     /* font-face: Me permite definir a mí, el nombre de la familia de fuentes. Se define en font-family*/
+//     font-family: 'montserrat-principal';
+//     /* Ubicación de la fuente descargada */
+//     src: url('../fonts/web-fonts/montserrat-v18-latin/montserrat-v18-latin-regular.woff') format('woff');
+    
+//     /* Se encarga de la visualización de la fuente. Primero carga con cualquier fuente y una vez que cargó toda la página, carga nuestra fuente*/
+//     font-display: swap;
+// }
+
+
+$contacto: ( /*Declaramos nuestro mapa*/
+        Telefono: #aefc56,
+        Celular:  #ee9ff8,
+        Correo: #fc568d,
+); 
+

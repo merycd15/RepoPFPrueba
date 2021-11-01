@@ -1,0 +1,11 @@
+@import '../variables';
+
+.caseHomeComprar{
+    text-decoration: none;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.caseHomeComprar, .caseHome:visited{ /* Una vez que le di click */
+    color: $color-letra;
+}

@@ -1,0 +1,14 @@
+@import 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('images/fondoSP.jpg'); */
+    background-color: $bg-color;
+    background-attachment: scroll;
+}
+
+

@@ -1,0 +1,37 @@
+//Media querie desktop
+@import '../variables';
+
+@media only screen and (min-width:961px){
+    ul{
+        list-style: none;
+        padding: 20px;
+        position: relative;
+       
+        li{
+            display: inline-block;
+            width: 20%;
+            font-size: 20px;
+        
+            ul {
+                position: absolute;
+                display: none;
+                width: 15%;
+                //background-image: linear-gradient(rgb(84, 84, 216));
+                background-color: $bg-color-barra;
+                
+                li {
+                    display: block;
+                
+                    a{
+                        text-decoration: none;
+                        color: $color-letra;
+                
+                        &:hover{
+                            display:block;
+                        }    
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@import '../variables';
+
+/* Sección Ubicación */
+.secUbicacion{
+    /* margin: 20px; */
+    padding: 20px;
+    margin-top: $margin50;
+    color: $color-letra;
+    /* display: flex; */
+    /* display: grid; */
+    margin-bottom: $margin30;
+    /* grid-template-rows: 20px; */
+
+    /*Sección GRID ubicación*/
+    .grid-row-ubicacion{
+        display: grid;
+        grid-template-areas: 
+            "Ubicacion"
+            "mapa"
+            "ubicacion";
+        grid-template-rows: 1fr repeat(2,auto);
+        grid-template-columns: 0% repeat(2,auto);
+
+        /* Título ubicación */
+        // #Ubicacion{
+        //     font-family: montserrat-principal;
+        //     /* grid-area: header; */
+        // }
+
+        .mapa{
+            margin-top: 3rem;
+            /* line-height: 140px; */
+        }
+    
+        .ubicacion{
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            /* transform: skew(20deg,10deg); */
+        }
+    }
+}
+
+
+
+
+
+
+

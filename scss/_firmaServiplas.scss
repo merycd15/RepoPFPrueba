@@ -1,0 +1,12 @@
+@import 'variables';
+
+.firma{ 
+    color: $color-letra; 
+    text-align: center;
+    text-decoration: none;
+    //padding-bottom: 20px;
+
+    &:visited{ /* Una vez que le di click */
+        color: $color-letra;
+    }
+}

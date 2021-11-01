@@ -1,0 +1,23 @@
+// Media queries
+@import '../mediaqueries/mediaqueriemobile';
+@import '../mediaqueries/mediaquerietablet';
+@import '../mediaqueries/mediaqueriedesktop';
+
+
+
+
+//Index (Home)
+//Body index
+@import '../body';
+@import 'header';
+    //Nosotros
+@import 'nosotros';
+    //Ubicación
+@import 'ubicacion';
+    //Contacto
+@import 'contacto';
+
+//Firma Serviplas
+@import '../firmaServiplas';
+
+@import '../logoserviplas';

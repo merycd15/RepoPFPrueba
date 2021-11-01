@@ -1,0 +1,20 @@
+
+.img-example{
+    //height: 300px;
+    //width: 300px;
+    //margin: 50px auto;
+    /* background-color: violet; */
+    transition: all 2s;
+}
+.img-example:hover{
+    transform: rotateY(360deg);
+    /* Prefijos para asegurarme que funcione bien en todos los navegadores*/
+    /*Chrome*/
+    -webkit-transform: rotateY(360deg);
+    /*Opera*/
+    -o-transform: rotateY(360deg);
+    /*Mozilla*/
+    -moz-transform: rotateY(360deg);
+    
+}
+

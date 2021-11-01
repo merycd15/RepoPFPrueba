@@ -1,0 +1,38 @@
+// Media querie mobile
+
+@import '../variables';
+
+@media only screen and (max-width:400px){
+    ul{
+        list-style: none;
+        padding: 20px;
+        position: relative;
+        
+        li{
+            display: inline-block;
+            width: 20%;
+            font-size: 12px;
+        
+            ul {
+                position: absolute;
+                display: none;
+                width: 15%;
+                background-color: $bg-color-barra;
+
+                li {
+                    display: block;
+                    
+                    a{
+                        text-decoration: none;
+                        color: $color-letra;
+                        
+                        &:hover{
+                            display:block;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
